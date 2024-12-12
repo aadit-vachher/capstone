@@ -111,17 +111,16 @@ opacity: 0px;
   gap: 0px;
   border: 0px 0px 1.5px 0px;
   opacity: 0px;
-  
+  margin-left: -28px;
 }
 .c2{
   display: flex;
-  width: Fill (1,344px)px;
+  width: (1,344px)px;
   height: Hug (437px)px;
   padding: 52px 0px 52px 0px;
-  gap: 52px;
-  opacity: 0px;
   background-color: #FFFBFA;
-  justify-content: space-between;
+  gap: 54px;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .c3{
@@ -129,7 +128,6 @@ opacity: 0px;
   height: Fixed (333px)px;
   gap: 10px;
   opacity: 0px;
-  
 }
 .c3 img{
 width: 413.33px;
@@ -138,6 +136,7 @@ gap: 0px;
 border-radius: 16px ;
 border: 1.5px 0px 0px 0px;
 opacity: 0px;
+margin-bottom:-15px ;
 }
 .c3 p {
   width: 413.33px;
@@ -152,7 +151,7 @@ opacity: 0px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #281D1B;
-
+margin-bottom: 2px;
 }
 .c3 span{
   width: 413.33px;
@@ -167,7 +166,6 @@ opacity: 0px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #2E18149E;
-  margin-top: 0px;
 }
 
 .para{
@@ -206,7 +204,8 @@ opacity: 0px;
   background-color: #FFFBFA;
 
 }
-.project{
+
+.project span{
   width: 900px;
   height: 32px;
   max-width: 900px;
@@ -221,16 +220,19 @@ opacity: 0px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #281D1B;
-  
+  display: flex;
+  justify-content: center;  
+  margin-left: -110px;
 }
 .list{ 
-  display: flex;
   width: Fill (900px)px;
   height: Fixed (160px)px;
   max-width: 900px;
   gap: 52px;
   opacity: 0px;
-  text-align: center;  
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 220px;
 }
 .list1{
   width: Fill (265.33px)px;
@@ -262,7 +264,17 @@ opacity: 0px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-    
+  margin-bottom: auto;
+}
+.list p {
+  font-family: Outfit;
+font-size: 17px;
+font-weight: 400;
+line-height: 15px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #2E18149E;
 }
 /* 
 .chu1 {
