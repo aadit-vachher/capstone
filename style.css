@@ -276,6 +276,113 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: #2E18149E;
 }
+.Impact {
+  width: 646px;
+height: 32px;
+gap: 0px;
+opacity: 0px;
+font-family: Domine;
+font-size: 28px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #281D1B;
+}
+.events {
+  width: Fill (1,344px)px;
+height: Hug (444px)px;
+padding: 104px 0px 52px 0px;
+gap: 52px;
+opacity: 0px;
+display: flex;
+}
+.events-top {
+  display: flex;
+}
+.events-bottom {
+  display: flex;
+}
+.Clients {
+  width: 1260px;
+height: 52px;
+max-width: 1260px;
+gap: 0px;
+opacity: 0px;
+font-family: Domine;
+font-size: 48px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: -0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #281D1B;
+}
+.cards {
+  width: Fill (1,344px)px;
+height: Hug (250px)px;
+gap: 32px;
+opacity: 0px;
+display: flex;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: Fixed (288px)px;
+height: Hug (214px)px;
+padding: 32px 0px 0px 0px;
+gap: 20px;
+border-radius: 20px;
+opacity: 0px;
+background: #7E322517;
+border: 1.5px solid #000000
+}
+.portfolio {
+  width: Hug (255px)px;
+height: Hug (32px)px;
+gap: 40px;
+opacity: 0px;
+width: 255px;
+height: 32px;
+gap: 0px;
+opacity: 0px;
+font-family: Domine;
+font-size: 28px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #2E18149E;
+
+}
+.contact {
+  width: Hug (168px)px;
+height: Hug (52px)px;
+padding: 14px 32px 14px 32px;
+gap: 0px;
+border-radius: 16px;
+opacity: 0px;
+border: 1.5px solid #6E4F4933;
+width: 104px;
+height: 24px;
+gap: 0px;
+opacity: 0px;
+font-family: Outfit;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #281D1B;
+}
 /* 
 .chu1 {
   width: Fill (1,344px)px;
