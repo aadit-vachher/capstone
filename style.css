@@ -262,3 +262,56 @@ footer button {
   cursor: pointer;
   transition: 0.3s;
 }
+
+@media (max-width: 1239px) {
+  .about div div {
+    width: 50vw;
+  }
+  .header h1 {
+    font-size: 100px;
+  }
+  .image9 {
+    display: none;
+  }
+}
+@media (max-width: 889px) {
+  .header h1 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-items {
+    display: none;
+  }
+
+  .matrics {
+    display: block;
+  }
+  .head {
+    margin: 0 ;
+  }
+  .right-dabba div h3 {
+    font-size: 20px;
+  }
+  .right-dabba div p {
+    font-size: 15px;
+  }
+  .about div h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 440px) {
+  .frames {
+    width: 85%;
+  }
+  .images {
+    width: 85%;
+  }
+  .frames img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
