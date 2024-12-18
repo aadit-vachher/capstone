@@ -1,262 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Outfit:wght@100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
-body{
-  width: 1440px;
-  height:4409px;
-  min-height: 900px;
-  top: -2205px;
-  left: -720px;
-  padding: 0px 48px 0px 48px;
-  gap: 0px;
-  opacity: 0px;
-  background: #FFFBFA;
-  
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Domine", serif;
+  font-weight: 300;
+  font-style: normal;
+  scroll-behavior: smooth;
 }
-.header{
-  width: Fill (1,344px)px;
-  height: Hug (88px)px;
-  padding: 0px 0px 20px 0px;
-  gap: 0px;
-  border: 0px 0px 1.5px 0px;
+p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+nav {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  opacity: 0px;
-  
+  padding: 10px 20px;
 }
-.logo{
-  width:197px;
-  height:48px;
-  gap: 12px;
-  opacity: 0px;
+
+
+nav .nav-links a {
+  text-decoration: none;
+  cursor: pointer;
+  margin: 15px;
+  color: #333;
+  font-weight: 200;
+  font-size: 24px;
 }
-.logo h2{
-  width: 197px;
-  height: 28px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Source Serif 4;
-  font-size: 42px;
-  font-weight: 600;
-  line-height: 42px;
-  letter-spacing: -0.04em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #281D1B;
-  margin-top: 22px;
-}
-.links{
+
+.home {
   display: flex;
-  flex-wrap: wrap;
-  width: 484px;
-  height: 32px;
-  gap: 40px;
-  opacity: 0px;
-
-}
-.links a{
-font-family: Domine;
-font-size: 28px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: -0.02em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #281D1B;
-text-decoration: none;
-padding: 0px;
-}
-.container1{
-  width: Fill (1,344px)px;
-  height: Hug (1,156px)px;
-  padding: 96px 0px 96px 0px;
-  margin-bottom: 104px;
-  border: 0px 0px 1.5px 0px;
-  opacity: 0px;
-  gap: 52px;
-  
-}
-.container2 h1{
-width: 1344px;
-height: 240px;
-gap: 0px;
-opacity: 0px;  
-color: #281D1B;
-font-family: Domine;
-font-size: 120px;
-font-weight: 700;
-line-height: 120px;
-letter-spacing: -0.02em;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-padding: 0px;
-
-}
-.img1 {
-  width: 1344px;
-height: 672px;
-gap: 0px;
-opacity: 0px;
-}
-.img1 img{
-  border: 1.5px solid #000000;
-  border-radius: 28px;
-}
-.c1{
-  width: Fill (1,344px)px;
-  height: Hug (1,207px)px;
-  gap: 0px;
-  border: 0px 0px 1.5px 0px;
-  opacity: 0px;
-  margin-left: -28px;
-}
-.c2{
-  display: flex;
-  width: (1,344px)px;
-  height: Hug (437px)px;
-  padding: 52px 0px 52px 0px;
-  background-color: #FFFBFA;
-  gap: 54px;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-.c3{
-  width: Fill (413.33px)px;
-  height: Fixed (333px)px;
-  gap: 10px;
-  opacity: 0px;
-}
-.c3 img{
-width: 413.33px;
-height: 275px;
-gap: 0px;
-border-radius: 16px ;
-border: 1.5px 0px 0px 0px;
-opacity: 0px;
-margin-bottom:-15px ;
-}
-.c3 p {
-  width: 413.33px;
-  height: 24px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Outfit;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #281D1B;
-margin-bottom: 2px;
-}
-.c3 span{
-  width: 413.33px;
-  height: 24px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Outfit;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #2E18149E;
+  flex-direction: column;
+  align-items: center;
 }
 
-.para{
-  width: Fill (1,344px)px;
-  height: Hug (452px)px;
-  padding: 96px 0px 96px 200px;
-  gap: 0px;
-  border: 0px 0px 1.5px 0px;
-  opacity: 0px;
-  background-color: #FFFBFA;
+.header {
   text-align: center;
+  margin: 100px 0 10px 0;
 }
-.para p{
-  width: 900px;
+.header h1 {
+  font-size: 120px;
+}
+.image {
+  margin: 20px;
+}
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 56px;
+}
+
+.frames {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+  margin-top: 50px;
+}
+.frames img {
+  width: 400px;
+  height: auto;
+  border-radius: 26px;
+  padding: 10px;
+}
+
+.frames p {
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  font-size: 17px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.frames p:nth-child(3) {
+  color: rgba(0, 0, 0, 0.6);
+  padding-top: 0px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+.about {
+  padding: 156px 10px;
+  text-align: center;
+  text-wrap: wrap;
+  
+}
+.about div {
+  display: flex;
+  justify-content: center;
   height: 260px;
-  max-width: 900px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Domine;
+  
+}
+.about div h2 {
+  width: 75%;
+  text-align: center;
+  width: 900px;
   font-size: 48px;
   font-weight: 400;
-  line-height: 52px;
-  letter-spacing: -0.02em;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #281D1B;
+  font-family: 'Domine';
 }
-.lowerpara{
-  width: Fill (1,344px)px;
-  height: Hug (328px)px;
-  padding: 52px 0px 52px 0px;
-  gap: 32px;
-  border: 0px 0px 1.5px 0px;
-  opacity: 0px;
-  background-color: #FFFBFA;
-
-}
-
-.project span{
-  width: 900px;
-  height: 32px;
-  max-width: 900px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Domine;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 32px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #281D1B;
+.projectsummary {
   display: flex;
-  justify-content: center;  
-  margin-left: -110px;
+  justify-content: center;
+  align-items: center;
 }
-.list{ 
-  width: Fill (900px)px;
-  height: Fixed (160px)px;
-  max-width: 900px;
-  gap: 52px;
-  opacity: 0px;
+.projsum {
   display: flex;
-  justify-content: space-evenly;
-  margin-left: 220px;
+  flex-direction: column;
+  align-items: start;
+  /* justify-content: center; */
 }
-.list1{
-  width: Fill (265.33px)px;
-  height: Hug (84px)px;
-  gap: 0px;
-  opacity: 0px;
+.head {
+  margin: 0px 55px ;
 }
-.list2{
-  width: Fill (265.33px)px;
-  height: Hug (84px)px;
-  gap: 0px;
-  opacity: 0px;  
-}
-.list3{
-  width: Fill (265.33px)px;
-  height: Hug (56px)px;
-  gap: 0px;
-  opacity: 0px;  
-}
-.list h6{
-  width: 265.33px;
-  height: 28px;
-  gap: 0px;
-  opacity: 0px;
+.item123 p:nth-child(2){
   font-family: Outfit;
   font-size: 17px;
   font-weight: 400;
@@ -264,186 +125,140 @@ margin-bottom: 2px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  margin-bottom: auto;
+  color: #2E18149E;
 }
-.list p {
+.item123 p:nth-child(3){
   font-family: Outfit;
-font-size: 17px;
-font-weight: 400;
-line-height: 15px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #2E18149E;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2E18149E;
 }
-.Impact {
-  width: 646px;
-height: 32px;
-gap: 0px;
-opacity: 0px;
-font-family: Domine;
-font-size: 28px;
-font-weight: 700;
-line-height: 32px;
-letter-spacing: -0.02em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #281D1B;
-}
-.events {
-  width: Fill (1,344px)px;
-height: Hug (444px)px;
-padding: 104px 0px 52px 0px;
-gap: 52px;
-opacity: 0px;
-display: flex;
-}
-.events-top {
-  display: flex;
-}
-.events-bottom {
-  display: flex;
-}
-.Clients {
-  width: 1260px;
-height: 52px;
-max-width: 1260px;
-gap: 0px;
-opacity: 0px;
-font-family: Domine;
-font-size: 48px;
-font-weight: 700;
-line-height: 52px;
-letter-spacing: -0.02em;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #281D1B;
-}
-.cards {
-  width: Fill (1,344px)px;
-height: Hug (250px)px;
-gap: 32px;
-opacity: 0px;
-display: flex;
-}
-.footer {
+.projsum .detail {
+  margin: 20px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+.projsum .detail div {
+  margin: 20px 100px;
+}
+.projsum .detail div p {
+  margin: 10px;
+}
+
+.matrics {
+  width: 100vw;
+  margin-top: 220px;
+  display: grid;
+  grid-template-columns: 1.7fr 1.3fr;
+}
+
+.head h3 {
+  margin: 20px;
+  font-weight: 800;
+  font-size: 28px;
+}
+.right-dabba {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.right-dabba div {
+  border-top: 1px solid rgba(0, 0, 0, 0.16);
+  margin: 20px;
+  padding: 10px;
+}
+.right-dabba div h3 {
+  font-size: 48px;
+  font-weight: 800;
+}
+.right-dabba div p {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.clients {
+  margin: 150px 0;
+}
+
+.clients h1 {
+  font-size: 48px;
+  text-align: center;
+  font-weight: 800;
+  margin: 20px 0;
+}
+/* Client Say Sections */
+.main-container {
+  display: flex;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
 }
 .card {
-  width: Fixed (288px)px;
-height: Hug (214px)px;
-padding: 32px 0px 0px 0px;
-gap: 20px;
-border-radius: 20px;
-opacity: 0px;
-background: #7E322517;
-border: 1.5px solid #000000
+  background-color: rgba(126, 50, 37, 0.09);
+  margin: 20px;
+  margin-top: 50px;
+  width: 326px;
+  /* border: 1px solid rgba(0, 0, 0, 0.16); */
+  display: grid;
+  grid-template-columns: 35% 65%;
+  padding: 10px;
+  border-radius: 10px;
+  place-items: center;
 }
-.portfolio {
-  width: Hug (255px)px;
-height: Hug (32px)px;
-gap: 40px;
-opacity: 0px;
-width: 255px;
-height: 32px;
-gap: 0px;
-opacity: 0px;
-font-family: Domine;
-font-size: 28px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: -0.02em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #2E18149E;
+.card img {
+  width: 50px;
+  border-radius: 50%;
+}
+.card-detail {
+  margin-top: 10px;
+}
+.border {
+  margin-top: 10px;
+  height: 90%;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+}
+.card-head p {
+  font-weight: 500;
+  color: rgba(40, 29, 27, 1);
+}
 
+.card-head p + p {
+  font-weight: 400;
+  color: rgba(46, 24, 20, 0.62);
 }
-.contact {
-  width: Hug (168px)px;
-height: Hug (52px)px;
-padding: 14px 32px 14px 32px;
-gap: 0px;
-border-radius: 16px;
-opacity: 0px;
-border: 1.5px solid #6E4F4933;
-width: 104px;
-height: 24px;
-gap: 0px;
-opacity: 0px;
-font-family: Outfit;
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #281D1B;
+.card-head {
+  justify-self: left;
 }
-/* 
-.chu1 {
-  width: Fill (1,344px)px;
-height: Hug (1,207px)px;
-gap: 0px;
-border: 0px 0px 1.5px 0px;
-opacity: 0px;
+.main-container {
+  height: 35vh;
+  overflow-x: auto;
+  position: relative;
+}
+.card {
+  min-width: 326px;
+}
+.main-container:nth-child(2){
+  height: 57%;
+}
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  margin-top: 10em;
+  align-items: center;
 }
-.chu2 {
-  width: Fill (1,344px)px;
-height: Hug (437px)px;
-padding: 52px 0px 52px 0px;
-gap: 52px;
-opacity: 0px;
-background-color: #FFFBFA;
-display: flex;
-justify-content: space-between;
-} 
-.chu3 {
-  width: Fill (413.33px)px;
-height: Fixed (333px)px;
-gap: 10px;
-opacity: 0px;
-display: block;
+
+footer button {
+  font-family: "Domine", serif;
+  padding: 12px 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
 }
-.chu4 {
-  width: 413.33px;
-height: 275px;
-gap: 0px;
-opacity: 0px;
-}
-.chu4 img {
-  border-radius: 16px;
-  border: 1.5px;
-}
-.chu3 p {
-  width: 413.33px;
-height: 24px;
-gap: 0px;
-opacity: 0px;
-font-family: Outfit;
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #281D1B;
-}
-.chu3 span {
-  width: 413.33px;
-height: 24px;
-gap: 0px;
-opacity: 0px;
-font-family: Outfit;
-font-size: 17px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #2E18149E;
-} */
