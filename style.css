@@ -264,15 +264,12 @@ footer button {
 }
 
 @media (max-width: 1239px) {
-  .about div div {
-    width: 50vw;
-  }
   .header h1 {
     font-size: 100px;
   }
-  .image9 {
+  /* .image9 {
     display: none;
-  }
+  } */
 }
 @media (max-width: 889px) {
   .header h1 {
